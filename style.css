@@ -1,0 +1,41 @@
+body{
+    font-family: 'STIX Two Text', serif;
+    font-size: medium;
+}
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from {box-shadow: 1px 1px 68px rgb(0, 0, 0);}
+    to {box-shadow: 1px 1px 68px rgb(174, 139, 221);}
+}
+.btnr{
+    background-color: rgb(132, 25, 182);
+    color: plum;
+}
+
+h4{
+    color: rgb(208, 149, 235);
+}
+.copy_right_footer{
+    position: fixed;
+    width: 100%;
+    color: #510881;
+    bottom: 0;
+    text-align: center;
+    line-height: 3;
+    background-color: rgb(160, 127, 238);
+    font-weight: bold;
+    font-size: large;
+}
+.heading{
+    font-size: 25px;
+    width: 100%;
+    margin: 0px;
+    padding-top: 20px;
+    color: #3c1b96;
+    box-shadow: 5px 5px 5px #4e01a5;
+    background-color: rgb(18, 2, 26);
+}
